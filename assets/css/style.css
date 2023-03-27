@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0080ff;
+    color: white;
+    border-radius: 8px;
+    width: 620px;
+    height: 470px;
+}
+
+.butc {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.timerc {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#lec {
+    width: 600px;
+}
+
+.blec {
+    margin-left: 1%;
+    width: 60px;
+    height: 30px;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 20px;
+    border: solid black 1px;
+}
+
+.blec:hover {
+    background-color: #0080ff;
+    color: white;
+    transition: 0.5s;
+}
+
+.back {
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    background-color: white;
+    border: solid black 1px;
+}
+
+.back:hover{
+    background-color: #0080ff;
+    color: white;
+    transition: 0.5s;
+}
+
+.forward {
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    background-color: white;
+    border: solid black 1px;
+}
+
+.forward:hover{
+    background-color: #0080ff;
+    color: white;
+    transition: 0.5s;
+}
+
+.fullscreen {
+    margin-right: 1%;
+    height: 30px;
+    width: 40px;
+    background-color: white;
+    border: solid black 1px;
+}
+
+.fullscreen:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
